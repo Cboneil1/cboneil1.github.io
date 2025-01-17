@@ -13,7 +13,7 @@ Some things about **me**:
 - This is my first time taking a class with Dan Aukes
 - I like to bake desserts as a hobby, but I dislike decorating food. I am in it for the bread
 
-## I am not a morning person
+## I am not a morning person, yet
 
 But, I also do not drink **coffee**. [WHAT??? you must feel so tired](https://www.thewellnesscorner.com/blog/reasons-you-maybe-sleepy-all-the-time). *Go figure*
 
