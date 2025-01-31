@@ -6,12 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/second-page/</loc>
+         <loc>https://embedded-systems-design.github.io/template_report/test-file/</loc>
          <lastmod>2025-01-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/test-file/</loc>
+         <loc>https://embedded-systems-design.github.io/template_report/Code/Code/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Code/PC-Phone-Setup%20%28if%20applicable%29/</loc>
          <lastmod>2025-01-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
