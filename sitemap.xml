@@ -21,6 +21,51 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Block-Diagram/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Communication-API/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Function-Description/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Schematic/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Software-Layout/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/PCB-Design-Files/Footprint-Library/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/PCB-Design-Files/PCB-Layout/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/PCB-Design-Files/Schematics/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/PCB-Design-Files/Symbol-Library/</loc>
+         <lastmod>2025-01-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Page%20Design%20References/charts/</loc>
          <lastmod>2025-01-31</lastmod>
          <changefreq>daily</changefreq>
