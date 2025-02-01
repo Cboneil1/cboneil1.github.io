@@ -1,5 +1,5 @@
 ---
-title: Welcome newcomers!
+title: Welcome Professors and Industry Experts
 tags:
 - tag1
 - tag2
