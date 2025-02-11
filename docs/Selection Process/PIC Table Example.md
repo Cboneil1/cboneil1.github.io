@@ -155,3 +155,13 @@ title: PIC Tables
 ---
 ### Team Role
 My project role is to record the input signal and transmit its modified output to the rest of the group. I am using an electret microphone to record human speech. A high pass filter will remove the extremely low frequency sounds that the electret microphone can pick up, limiting the lower frequencies to what a human voice can produce. My board will be individually powered by a 3.3v regulator. I am happy to share extra voltage if needed through our interconnected jumper wires. The information will be transmitted from my PIC board to the board responsible for output via SPI. My section has no display components. 
+
+### Proof of Sucessful build using PIC18F26K22
+![Screenshot](Buildsuccess.JPG)
+### Pin Layout for PIC18F29K22
+![Screenshot](Pinsview.JPG)
+### Picture of Melody Workspace
+![Screenshot](Melody.JPG)
+
+### Current Selection and Rationale
+My current choice for the microcontroller is the PIC18F29K22 due to its, compact size, SOIC package availability, reasonable number of pins, supported methods of communication, and extra resources such as spare SPI communication and excess GPIO pins for debugging. 
