@@ -8,3 +8,5 @@ title: Schematic For Audio Input PCB
 [Open PDF](./EGR314_CarterONeill_Schematic1.pdf)
 ## Zip File  
 [Download ZIP](./EGR314_CARTERONEILL00.zip)
+## Power Budget
+![Screenshot](PowerBudgetNew.jpg)
