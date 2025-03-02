@@ -11,5 +11,7 @@ My schematic satisfies the needs of the k-12 children expected to use this equip
 [Download ZIP](./EGR314_CARTERONEILL00.zip)
 ## Power Budget
 ![Screenshot](PowerBudgetNew.jpg)
+## Zip File  
+[Download ZIP](./Power_Budget_Carter.zip)
 
 The power budget highlights how efficient my system is, and demonstrates the need for a switching regulator. Running a linear regulator with this setup would generate a lot of heat. The components I am using will likely be lower energy than calculated here, in the tens of milliamps, due to the majority of accessories being excluded from use. 
