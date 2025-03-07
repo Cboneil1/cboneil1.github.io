@@ -157,9 +157,9 @@ title: PIC Tables
 My project role is to record the input signal and transmit its modified output to the rest of the group. I am using an electret microphone to record human speech. A high pass filter will remove the extremely low frequency sounds that the electret microphone can pick up, limiting the lower frequencies to what a human voice can produce. My board will be individually powered by a 3.3v regulator. I am happy to share extra voltage if needed through our interconnected jumper wires. The information will be transmitted from my PIC board to the board responsible for output via SPI. My section has no display components. 
 
 ### Proof of Sucessful build using PIC18F26K22
-![Screenshot](Buildsuccess.JPG)
+![Screenshot](BuildSuccess.JPG)
 ### Pin Layout for PIC18F29K22
-![Screenshot](Pinsview.JPG)
+![Screenshot](PinsView.JPG)
 ### Picture of Melody Workspace
 ![Screenshot](Melody.JPG)
 
