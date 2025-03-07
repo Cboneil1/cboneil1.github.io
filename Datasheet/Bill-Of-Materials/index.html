@@ -12,13 +12,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/Datasheet/Software-Layout/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/template_report/Datasheet/Bill-Of-Materials/">
       
       
-        <link rel="prev" href="../Schematic/">
+        <link rel="prev" href="../../Code/PC-Phone-Setup%20%28if%20applicable%29/">
       
       
-        <link rel="next" href="../../PCB-Design-Files/Footprint-Library/">
+        <link rel="next" href="../Block-Diagram/">
       
       
       <link rel="icon" href="../../static/logo.png">
@@ -29,7 +29,7 @@
 
     
       
-        <title>Software Layout - EGR314 Report Carter ONeill</title>
+        <title>Bill Of Materials - EGR314 Report Carter ONeill</title>
       
     
     
@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#bill-of-materials" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -123,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Software Layout
+              Bill Of Materials
             
           </span>
         </div>
@@ -238,7 +243,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../Bill-Of-Materials/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -455,9 +460,27 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Bill-Of-Materials/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Bill Of Materials
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -466,6 +489,31 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    Bill of Materials
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -555,16 +603,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Software-Layout/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -573,7 +614,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -688,6 +728,21 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    Bill of Materials
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -701,7 +756,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/Datasheet/Software-Layout.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/template_report/edit/main/docs/Datasheet/Bill-Of-Materials.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -709,9 +764,285 @@
   
 
 
-  <h1>Software Layout</h1>
+  <h1>Bill Of Materials</h1>
 
-
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<table>
+<thead>
+<tr>
+<th>Reference</th>
+<th>Value</th>
+<th>Datasheet</th>
+<th>Supplier</th>
+<th>Supplier Part Number</th>
+<th>Qty</th>
+<th>Cost per unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESP32</td>
+<td>Wroom 1</td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</a></td>
+<td>Digikey</td>
+<td>1965-ESP32-S3-WROOM-1-N4CT-ND</td>
+<td>2</td>
+<td>5.06</td>
+</tr>
+<tr>
+<td><br>PCM1861DBTR</td>
+<td>ADC</td>
+<td><a href="https://www.ti.com/lit/ds/symlink/pcm1864.pdf">https://www.ti.com/lit/ds/symlink/pcm1864.pdf</a></td>
+<td>Digikey</td>
+<td>296-37833-1-ND</td>
+<td>2</td>
+<td>4.42</td>
+</tr>
+<tr>
+<td>CME-1538-100LB</td>
+<td>Electret Mic</td>
+<td><a href="https://www.cuidevices.com/product/resource/cme-1538-100lb.pdf">https://www.cuidevices.com/product/resource/cme-1538-100lb.pdf</a></td>
+<td>Digikey</td>
+<td>102-2190-ND</td>
+<td>4</td>
+<td>3.53</td>
+</tr>
+<tr>
+<td>TLV2372IDR</td>
+<td>Op-Amp</td>
+<td><a href="https://www.ti.com/lit/ds/symlink/tlv2371-q1.pdf?ts=1741101691638&amp;ref_url=https%253A%252F%252Fwww.google.com%252F">https://www.ti.com/lit/ds/symlink/tlv2371-q1.pdf?ts=1741101691638&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</a></td>
+<td>Digikey</td>
+<td>296-10528-1-ND</td>
+<td>4</td>
+<td>1.48</td>
+</tr>
+<tr>
+<td>LM2675MX-3.3/NOPB</td>
+<td>Switching Reg</td>
+<td><a href="https://www.ti.com/lit/ds/symlink/lm2675.pdf">https://www.ti.com/lit/ds/symlink/lm2675.pdf</a></td>
+<td>Digikey</td>
+<td>LM2675MX-3.3/NOPBCT-ND</td>
+<td>4</td>
+<td>4.36</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>10uF</td>
+<td><a href="https://www.we-online.com/components/products/datasheet/865080540004.pdf">https://www.we-online.com/components/products/datasheet/865080540004.pdf</a></td>
+<td>Digikey</td>
+<td>732-8503-1-ND</td>
+<td>25</td>
+<td>0.18</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>100nF</td>
+<td><a href="https://datasheets.kyocera-avx.com/TAJ.pdf">https://datasheets.kyocera-avx.com/TAJ.pdf</a></td>
+<td>Digikey</td>
+<td>478-3286-1-ND</td>
+<td>25</td>
+<td>0.388</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>1uF</td>
+<td><a href="https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwp.pdf">https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwp.pdf</a></td>
+<td>Digikey</td>
+<td>493-9825-1-ND</td>
+<td>25</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>0.01uF</td>
+<td><a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E103KA12-01.pdf">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E103KA12-01.pdf</a></td>
+<td>Digikey</td>
+<td>490-7194-1-ND</td>
+<td>25</td>
+<td>0.018</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>0.5uF</td>
+<td><a href="https://dir.heisener.com/specification-pdf/en/TAJR474K020RNJ.pdf">https://dir.heisener.com/specification-pdf/en/TAJR474K020RNJ.pdf</a></td>
+<td>Digikey</td>
+<td>478-3964-1-ND</td>
+<td>25</td>
+<td>0.38</td>
+</tr>
+<tr>
+<td>Cx</td>
+<td>68uF</td>
+<td><a href="https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uud.pdf">https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uud.pdf</a></td>
+<td>Digikey</td>
+<td>493-2289-1-ND</td>
+<td>25</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>Dx</td>
+<td>LED Green</td>
+<td><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4320/CMD17-21_Rev10.pdf</a></td>
+<td>Digikey</td>
+<td>L62505CT-ND</td>
+<td>10</td>
+<td>0.52</td>
+</tr>
+<tr>
+<td>Dx</td>
+<td>SK12</td>
+<td><a href="https://diotec.com/request/datasheet/sk12.pdf">https://diotec.com/request/datasheet/sk12.pdf</a></td>
+<td>Digikey</td>
+<td>4878-SK12CT-ND</td>
+<td>10</td>
+<td>0.085</td>
+</tr>
+<tr>
+<td>Lx</td>
+<td>47uH</td>
+<td><a href="https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-9125.pdf">https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-9125.pdf</a></td>
+<td>Digikey</td>
+<td>490-18465-1-ND</td>
+<td>10</td>
+<td>0.17</td>
+</tr>
+<tr>
+<td>Lx</td>
+<td>600ohm Ferrite</td>
+<td><a href="https://www.bourns.com/docs/Product-Datasheets/mh.pdf">https://www.bourns.com/docs/Product-Datasheets/mh.pdf</a></td>
+<td>Digikey</td>
+<td>MH2029-601YCT-ND</td>
+<td>10</td>
+<td>0.058</td>
+</tr>
+<tr>
+<td>Ux</td>
+<td>USB Thru-Hole</td>
+<td><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5054/USB-A1VSXX149.pdf">https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5054/USB-A1VSXX149.pdf</a></td>
+<td>Digikey</td>
+<td>USB-A1VSB6</td>
+<td>5</td>
+<td>0.66</td>
+</tr>
+<tr>
+<td>Fx</td>
+<td>Fuse 6v 0.5A</td>
+<td><a href="https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zck-series.pdf">https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zck-series.pdf</a></td>
+<td>Digikey</td>
+<td>5923-0ZCK0050FF2ECT-ND</td>
+<td>5</td>
+<td>0.24</td>
+</tr>
+<tr>
+<td>Fx</td>
+<td>Fuse tray 9v</td>
+<td><a href="https://www.keyelco.com/userAssets/file/M65p43.pdf">https://www.keyelco.com/userAssets/file/M65p43.pdf</a></td>
+<td>Digikey</td>
+<td>36-3587-20CT-ND</td>
+<td>5</td>
+<td>1.89</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>0</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf</a></td>
+<td>Digikey</td>
+<td>P0.0ACT-ND</td>
+<td>30</td>
+<td>0.024</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>1K</td>
+<td><a href="https://www.vishay.com/docs/20043/crcwhpe3.pdf">https://www.vishay.com/docs/20043/crcwhpe3.pdf</a></td>
+<td>Digikey</td>
+<td>541-1.00KTCT-ND</td>
+<td>15</td>
+<td>0.087</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>2.2K</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+<td>Digikey</td>
+<td>P2.2KADCT-ND</td>
+<td>15</td>
+<td>0.059</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>10K</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+<td>Digikey</td>
+<td>P16059CT-ND</td>
+<td>15</td>
+<td>0.086</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>4.7K</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+<td>Digikey</td>
+<td>P16073CT-ND</td>
+<td>15</td>
+<td>0.086</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>4K</td>
+<td><a href="https://www.vishay.com/docs/20043/crcwhpe3.pdf">https://www.vishay.com/docs/20043/crcwhpe3.pdf</a></td>
+<td>Digikey</td>
+<td>541-4.02KTCT-ND</td>
+<td>15</td>
+<td>0.099</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>470</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+<td>Digikey</td>
+<td>10-ERJ-P06F4700VCT-ND</td>
+<td>15</td>
+<td>0.086</td>
+</tr>
+<tr>
+<td>Rx</td>
+<td>400</td>
+<td><a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf">https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf</a></td>
+<td>Digikey</td>
+<td>10-ERJ-P06F4020VCT-ND</td>
+<td>15</td>
+<td>0.086</td>
+</tr>
+<tr>
+<td>Jx</td>
+<td>Tact Switch12v</td>
+<td><a href="https://configured-product-images.s3.amazonaws.com/Datasheets/TL3305.pdf">https://configured-product-images.s3.amazonaws.com/Datasheets/TL3305.pdf</a></td>
+<td>Digikey</td>
+<td>EG5351CT-ND</td>
+<td>10</td>
+<td>0.193</td>
+</tr>
+<tr>
+<td>Fx</td>
+<td>1A blade fuse</td>
+<td><a href="https://www.littelfuse.com/assetdocs/littelfuse_datasheet_287_atof_r2.7.pdf?assetguid=43dcdce8-8ca2-426f-8998-7e566f048d40">https://www.littelfuse.com/assetdocs/littelfuse_datasheet_287_atof_r2.7.pdf?assetguid=43dcdce8-8ca2-426f-8998-7e566f048d40</a></td>
+<td>Digikey</td>
+<td>F4191-ND</td>
+<td>5</td>
+<td>0.32</td>
+</tr>
+<tr>
+<td>Jx</td>
+<td>Jumper 2 con</td>
+<td><a href="https://drawings-pdf.s3.amazonaws.com/11134.pdf">https://drawings-pdf.s3.amazonaws.com/11134.pdf</a></td>
+<td>Digikey</td>
+<td>S9000-ND</td>
+<td>10</td>
+<td>0.32</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -739,7 +1070,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Schematic/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Schematic For Audio Input PCB" rel="prev">
+          <a href="../../Code/PC-Phone-Setup%20%28if%20applicable%29/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PC Phone Setup (if applicable)" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -749,20 +1080,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Schematic For Audio Input PCB
+                PC Phone Setup (if applicable)
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../PCB-Design-Files/Footprint-Library/" class="md-footer__link md-footer__link--next" aria-label="Next: Footprint Library" rel="next">
+          <a href="../Block-Diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Block Diagram" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Footprint Library
+                Block Diagram
               </div>
             </div>
             <div class="md-footer__button md-icon">
