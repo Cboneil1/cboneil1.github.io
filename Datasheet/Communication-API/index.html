@@ -29,7 +29,7 @@
 
     
       
-        <title>Communication API - EGR314 Report Carter ONeill</title>
+        <title>API - EGR314 Report Carter ONeill</title>
       
     
     
@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#api" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -123,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Communication API
+              API
             
           </span>
         </div>
@@ -503,16 +508,122 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Communication API
+    API
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    Message Structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#members" class="md-nav__link">
+    Members
+  </a>
+  
+    <nav class="md-nav" aria-label="Members">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#byte-1-structure" class="md-nav__link">
+    Byte 1 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pitch-info-structure" class="md-nav__link">
+    Pitch Info Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="Pitch Info Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pitch-info-byte-2-structure" class="md-nav__link">
+    Pitch Info Byte 2 Structure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pitch-info-byte-3-structure" class="md-nav__link">
+    Pitch Info Byte 3 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updown-pitch-structure" class="md-nav__link">
+    Up/Down Pitch Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="Up/Down Pitch Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updown-byte-2-structure" class="md-nav__link">
+    Up/Down Byte 2 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -687,6 +798,90 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    Message Structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#members" class="md-nav__link">
+    Members
+  </a>
+  
+    <nav class="md-nav" aria-label="Members">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#byte-1-structure" class="md-nav__link">
+    Byte 1 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pitch-info-structure" class="md-nav__link">
+    Pitch Info Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="Pitch Info Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pitch-info-byte-2-structure" class="md-nav__link">
+    Pitch Info Byte 2 Structure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pitch-info-byte-3-structure" class="md-nav__link">
+    Pitch Info Byte 3 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updown-pitch-structure" class="md-nav__link">
+    Up/Down Pitch Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="Up/Down Pitch Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updown-byte-2-structure" class="md-nav__link">
+    Up/Down Byte 2 Structure
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -709,9 +904,231 @@
   
 
 
-  <h1>Communication API</h1>
-
-
+<h1 id="api">API</h1>
+<h2 id="message-structure">Message Structure</h2>
+<table>
+<thead>
+<tr>
+<th>Start Value 1</th>
+<th>Start Value 2</th>
+<th>From</th>
+<th>To</th>
+<th>Data Byte 1</th>
+<th>Data N</th>
+<th>End Value 1</th>
+<th>End Value 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x41</td>
+<td>0x5a</td>
+<td>0xXX</td>
+<td>0xXX</td>
+<td>Message Select</td>
+<td>56 Byte Limit</td>
+<td>0x59</td>
+<td>0x42</td>
+</tr>
+</tbody>
+</table>
+<h2 id="members">Members</h2>
+<table>
+<thead>
+<tr>
+<th>Brendan</th>
+<th>Carter</th>
+<th>Sivanee</th>
+<th>Zach</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x42</td>
+<td>0x43</td>
+<td>0x53</td>
+<td>0x5a</td>
+</tr>
+</tbody>
+</table>
+<h3 id="byte-1-structure">Byte 1 Structure</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>message_type</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>uint8_t</code></td>
+</tr>
+<tr>
+<td><strong>Min Value</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Max Value</strong></td>
+<td>20</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pitch-info-structure">Pitch Info Structure</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+<th>Byte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>Pitch Info</code></td>
+<td><code>Source Select</code></td>
+<td><code>Pitch Value</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>uint8_t</code></td>
+<td><code>uint8_t</code></td>
+<td><code>int8_t</code></td>
+</tr>
+<tr>
+<td><strong>Value</strong></td>
+<td>1</td>
+<td>ex: 1</td>
+<td>ex: 176</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pitch-info-byte-2-structure">Pitch Info Byte 2 Structure</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>Source Select</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>uint8_t</code></td>
+</tr>
+<tr>
+<td><strong>Min Value</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>Max Value</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td>0 for Mic, 1 for Button</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pitch-info-byte-3-structure">Pitch Info Byte 3 Structure</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>Pitch Value</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>uint8_t</code></td>
+</tr>
+<tr>
+<td><strong>Min Value</strong></td>
+<td>0 Hz</td>
+</tr>
+<tr>
+<td><strong>Max Value</strong></td>
+<td>255 Hz</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td>75Hz</td>
+</tr>
+</tbody>
+</table>
+<h2 id="updown-pitch-structure">Up/Down Pitch Structure</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>Pitch Adjust</code></td>
+<td><code>High or Low</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>uint8_t</code></td>
+<td><code>bool</code></td>
+</tr>
+<tr>
+<td><strong>Value</strong></td>
+<td>2</td>
+<td>ex: False</td>
+</tr>
+</tbody>
+</table>
+<h3 id="updown-byte-2-structure">Up/Down Byte 2 Structure</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Variable Name</strong></td>
+<td><code>High or Low</code></td>
+</tr>
+<tr>
+<td><strong>Variable Type</strong></td>
+<td><code>bool</code></td>
+</tr>
+<tr>
+<td><strong>Min Value</strong></td>
+<td>False Down</td>
+</tr>
+<tr>
+<td><strong>Max Value</strong></td>
+<td>True Up</td>
+</tr>
+</tbody>
+</table>
 
 
 
