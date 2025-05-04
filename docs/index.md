@@ -5,30 +5,11 @@ tags:
 - tag2
 ---
 
-## This is my personal website for class 314 MW 9am
+## This is the website for Carter ONeill's report
+Our greater project was of a system to take input from an audio mic and convert the frequency information to a pitch, and then convert that pitch to a physical wave via motors. My section specifically was for the portion that handled the audio input.
 
-Some things about **me**:
+The electret microphone on the PCB sent the audio to an Op-Amp, which was sent to an ADC, and output to the ESP-32 via I2S communication.
 
-- I am studying Electrical Systems Engineering
-- This is my first time taking a class with Dan Aukes
-- I like to bake desserts as a hobby, but I dislike decorating food. I am in it for the bread
-
-## I am not a morning person, yet
-
-But, I also do not drink **coffee**. [WHAT??? you must feel so tired](https://www.thewellnesscorner.com/blog/reasons-you-maybe-sleepy-all-the-time). *Go figure*
-
-1. Is it hard to roll out of bed in the mornings without coffee?
-
-    Yes:
-
-        if (DrinkCoffee== true){
-            panic_attack==HIGH;}
-
-2. If I drink tea in the morning
-
-    > Tea doesnt help at all and it tastes bad
-
-3. Just dealing with it
-
+[View Our Team Website Here](https://egr314-2025-s-203.github.io/Team203.github.io/)
 
 Thanks for viewing. 
