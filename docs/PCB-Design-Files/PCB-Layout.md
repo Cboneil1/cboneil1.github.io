@@ -8,4 +8,6 @@
 
 [PCB Gerber](./cboneil1_gerber.zip)
 
-## PDF files
+## Project files
+
+[Project Zip](./Project_total.zip)
