@@ -24,7 +24,7 @@ This is the style of communication decided by the group to best send messages be
 
 | Name      | ID  | Value |
 |-----------|-----|-------|
-| Brandon   | B   | 0x42  |
+| Brendon   | B   | 0x42  |
 | Zack      | Z   | 0x5A  |
 | Carter    | C   | 0x43  |
 | Broadcast | X   | 0x58  |
@@ -36,7 +36,7 @@ This is the style of communication decided by the group to best send messages be
 | Message Type    | Value | Type  |
 |-----------------|--------|--------|
 | Motor (Freq)    | 1      | 0x31   |
-| Pitch (up/d)    | 4      | 0x34   |
+| Pitch (up/d)    | 6      | 0x36   |
 
 ---
 
@@ -53,9 +53,9 @@ This is the style of communication decided by the group to best send messages be
 
 | Error Type           | Value  |
 |----------------------|--------|
-| Wrong start sequence | 0x01   |
-| Wrong header         | 0x02   |
-| Wrong Receiver       | 0x03   |
-| Wrong Sender         | 0x04   |
-| Wrong Message Type   | 0x05   |
-| Wrong Message ending | 0x06   |
+| Wrong start sequence | 0x30   |
+| Wrong header         | 0x31   |
+| Wrong Receiver       | 0x32   |
+| Wrong Sender         | 0x33   |
+| Wrong Message Type   | 0x34   |
+| Wrong Message ending | 0x35   |
