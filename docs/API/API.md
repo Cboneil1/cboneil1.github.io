@@ -25,8 +25,8 @@ This is the style of communication decided by the group to best send messages be
 | Name      | ID  | Value |
 |-----------|-----|-------|
 | Brandon   | B   | 0x42  |
-| Zarek     | Z   | 0x5A  |
-| Conner    | C   | 0x43  |
+| Zack      | Z   | 0x5A  |
+| Carter    | C   | 0x43  |
 | Broadcast | X   | 0x58  |
 
 ---
