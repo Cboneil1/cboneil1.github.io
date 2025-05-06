@@ -6,21 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/template_report/Resources/</loc>
-         <lastmod>2025-05-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://embedded-systems-design.github.io/template_report/Code/Code/</loc>
-         <lastmod>2025-05-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://embedded-systems-design.github.io/template_report/Code/PC-Phone-Setup%20%28if%20applicable%29/</loc>
-         <lastmod>2025-05-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Datasheet/Bill-Of-Materials/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
@@ -52,6 +37,11 @@
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/PCB-Design-Files/PCB-Layout/</loc>
+         <lastmod>2025-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Resources/Resources/</loc>
          <lastmod>2025-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
